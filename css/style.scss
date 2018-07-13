@@ -1,0 +1,32 @@
+
+$fontColor: #E8E3DF;
+$background: #2A3F43;
+$font: 'Raleway', sans-serif;
+#about {
+	height: 720px;
+	background-color: black;
+}
+#home{
+	height: 720px;
+	background-size: cover;
+	background-image: url("../static/background.jpg");
+}
+
+nav{
+	background-color: $background;
+}
+
+ul li a{
+  color: $fontColor;
+}
+
+nav .brandFont{
+	color: $fontColor;
+}
+
+h2{
+	font-family: $font;
+	font-weight: 100;
+	font-style: italic;
+	text-align: left;
+}
